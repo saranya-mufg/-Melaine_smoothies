@@ -12,7 +12,7 @@ st.write(
 )
 
 name_on_order=st.text_input('Name on smoothie:')
-st.write('Name of smoothie: ' ,name_on_order)
+st.write('Name on your smoothie: ' ,name_on_order)
 
 cnx=st.connection("snowflake")
 session=cnx.session
